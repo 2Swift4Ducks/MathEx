@@ -1,0 +1,72 @@
+/* Global Settings */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#parent {
+	padding: 32px;
+}
+
+/* Section Elements */
+h2 {
+	font-family: Arial;
+	font-size: 18px;
+}
+hr {
+	border: solid 1px #000;
+	margin-bottom: 16px;
+}
+.section {
+	margin: auto;
+	max-width: 840px;
+}
+.hstack {
+	display: flex;
+}
+.vstack {
+
+}
+img {
+	height: 128px;
+	margin-left: 32px;
+	width: 256px;
+}
+p {
+	font-family: Arial;
+	text-align: justify;
+}
+.latex {
+	display: inline-block;
+	margin-left: 32px;
+}
+ol {
+	margin-top: 32px;
+}
+li {
+	font-family: Arial;
+	margin-bottom: 16px;
+	margin-left: 48px;
+	margin-right: 48px;
+	text-align: justify;
+}
+.notice {
+	font-weight: 550;
+	margin-top: 32px;
+}
+
+/* Remaining Elements */
+button {
+	background-color: #8f8;
+	border: solid 1px #000;
+	border-radius: 8px;
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 550;
+	margin-left: auto;
+	padding: 8px 32px;
+}
+button:hover {
+	background-color: #0f0;
+	transition: 0.2s;
+}
